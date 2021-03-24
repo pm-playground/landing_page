@@ -1,16 +1,18 @@
- ## **CSS name conventions**
-### `--clr` 👉 *color*
+## **CSS name conventions**
 
-* *primary -* **200** 👈 as bigger the number gets, the colors is becoming darker
+### `--clr` 👉 _color_
 
->  *example:* `--clr-primary-200: #f3eed9;`
+- _primary -_ **200** 👈 as bigger the number gets, the colors is becoming darker
 
-> *example:*   `--clr-neutral-900: #222c2a;`
+> _example:_ `--clr-primary-200: #f3eed9;`
 
+> _example:_ `--clr-neutral-900: #222c2a;`
 
-### `--ff` 👉 *font family*
-### `--primary`👉 used in most places 
-### `--accent`👉 to add some flare to a specific place  
+### `--ff` 👉 _font family_
+
+### `--primary`👉 used in most places
+
+### `--accent`👉 to add some flare to a specific place
 
 ```
 #example:
@@ -18,4 +20,4 @@
   --ff-accent: 'Playfair Display', serif;
 ```
 
-### `bg` 👉- *background*
+### `bg` 👉 _background_
