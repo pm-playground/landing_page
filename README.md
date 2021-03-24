@@ -21,3 +21,15 @@
 ```
 
 ### `bg` 👉 _background_
+
+### `--`👉 _modification on original values_(we are using **container** defaults but we are adding some additional values with **container--narrow**)
+> _example:_  `<div class="container container--narrow">`
+
+>` container--narrow`
+
+_every element that has a sibling before it_
+```
+  .split > * + *{
+    margin-left: 2em;
+  }
+```

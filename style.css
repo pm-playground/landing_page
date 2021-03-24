@@ -1,9 +1,9 @@
 :root {
-  --clr-primary-200: #f3eed9;
-  --clr-primary-400: #824936;
+  --clr-primary-200: #c4dbf6;
+  --clr-primary-400: #3b8beb;
 
   --clr-neutral-100: #fff;
-  --clr-neutral-900: #222c2a;
+  --clr-neutral-900: #b23850;
 
   --ff-primary: "Roboto", sans-serif;
   --ff-accent: "Playfair Display", serif;
@@ -33,9 +33,16 @@ p {
 h1,
 h2,
 h3 {
+  color: var(--clr-primary-400);
   font-family: var(--ff-accent);
   font-weight: 900;
   line-height: 1;
+}
+
+h2,
+h3,
+p {
+  margin-bottom: 1em;
 }
 
 .text-center {
@@ -43,7 +50,8 @@ h3 {
 }
 
 img {
-  width: 100%;
+  display: block;
+  max-width: 100%;
 }
  
 header,
@@ -56,6 +64,10 @@ section {
   width: min(90%, 70.50rem);
 }
 
+.split {
+  display: flex;
+  flex-direction: column;
+}
 .container--narrow {
   max-width: 34rem;
 }
@@ -75,4 +87,25 @@ section {
 .bg-primary h2,
 .bg-dark h2 {
   color: var(--clr-primary-200);
+}
+
+
+@media (min-width: 40em) {
+  header,
+  section {
+    padding: 4rem 0;
+  }
+  
+  .split {
+    flex-direction: row;
+  }
+
+  .split > * {
+    flex-basis: 100%;
+  }
+  .split > * + *{
+    margin-left: 2em;
+  }
+
+
 }
