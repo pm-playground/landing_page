@@ -1,5 +1,4 @@
 ## **CSS name conventions**  📖
-***
 ### `--clr` 👉 _color_
 
 - _primary -_ **200** 👈 as bigger the number gets, the colors is becoming darker
